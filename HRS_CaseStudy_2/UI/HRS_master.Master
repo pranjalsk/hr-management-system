@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HRS_master.master.cs" Inherits="HRS_CaseStudy_2.UI.HRS_master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" 
+    
+    
+    
+    style="background-position: inherit; background-image: url('/UI/images/plainback.jpg'); background-repeat: repeat; background-attachment: inherit; font-family: 'Century Schoolbook'; font-size: larger; font-weight: bolder; text-transform: capitalize; color: #FFFFFF;">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p style="background-image: url('/UI/images/logo-hrm.jpg'); background-repeat: no-repeat; background-position: center top; height: 194px; background-color: #FFFFFF;">
+                <br /></asp:ContentPlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+        <p style="background-color: #FFFFFF; height: 46px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ImageButton ID="imgBtn_employee" runat="server" Height="45px" 
+            ImageUrl="~/UI/images/1.png" Width="140px" 
+            onclick="imgBtn_employee_Click" CausesValidation="False" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:ImageButton ID="imgBtn_skillCat" 
+                runat="server" Height="45px" 
+            ImageUrl="~/UI/images/2.png" Width="140px" 
+            onclick="imgBtn_skillCat_Click" CausesValidation="False" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:ImageButton ID="imgBtn_skills" 
+                runat="server" Height="45px" 
+            ImageUrl="~/UI/images/3.png" Width="140px" 
+            onclick="imgBtn_skills_Click" CausesValidation="False" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:ImageButton ID="imgBtn_Projects" 
+                runat="server" Height="45px" 
+            ImageUrl="~/UI/images/4.png" Width="140px" 
+            onclick="imgBtn_Projects_Click" CausesValidation="False" />
+            <br />
+        </p>
+    </asp:ContentPlaceHolder>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        <p>
+            <br />
+        </p>
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

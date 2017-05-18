@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6E673E0-A058-4E35-863E-7E80B06C03FB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRS_CaseStudy_2</RootNamespace>
+    <AssemblyName>HRS_CaseStudy_2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=1.0.2309.27303, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Common\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Common\Microsoft.ApplicationBlocks.Data.dll" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Service References\EmployeeSearchServiceRef\Service1.disco" />
+    <None Include="Service References\EmployeeSearchServiceRef\configuration91.svcinfo" />
+    <None Include="Service References\EmployeeSearchServiceRef\configuration.svcinfo" />
+    <None Include="Service References\EmployeeSearchServiceRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="UI\CreateCategory.aspx" />
+    <Content Include="UI\CreateEmployee.aspx" />
+    <Content Include="UI\CreateProject.aspx" />
+    <Content Include="UI\CreateSkill.aspx" />
+    <Content Include="UI\Default.aspx" />
+    <Content Include="UI\HRS_master_pageDesign.csproj" />
+    <Content Include="UI\images\1.png" />
+    <Content Include="UI\images\2.png" />
+    <Content Include="UI\images\3.png" />
+    <Content Include="UI\images\4.png" />
+    <Content Include="UI\images\accentue.png" />
+    <Content Include="UI\images\accenture-logo.jpg" />
+    <Content Include="UI\images\ACCENTURE_LOGO_BACK.png" />
+    <Content Include="UI\images\calendar.JPG" />
+    <Content Include="UI\images\Category.png" />
+    <Content Include="UI\images\emp.png" />
+    <Content Include="UI\images\Employee.png" />
+    <Content Include="UI\images\empployee_Add.png" />
+    <Content Include="UI\images\loginpage back.png" />
+    <Content Include="UI\images\logo-hrm.jpg" />
+    <Content Include="UI\images\logo_acc.png" />
+    <Content Include="UI\images\plainback.jpg" />
+    <Content Include="UI\images\Projectnew.png" />
+    <Content Include="UI\images\projects.png" />
+    <Content Include="UI\images\Skill.png" />
+    <Content Include="UI\images\SkillCat.png" />
+    <Content Include="UI\images\Skills.png" />
+    <Content Include="UI\images\srchBack.jpg" />
+    <Content Include="UI\images\welcome.jpg" />
+    <Content Include="UI\Login.aspx" />
+    <Content Include="UI\SearchCategory.aspx" />
+    <Content Include="UI\SearchEmployee.aspx" />
+    <Content Include="UI\SearchProject.aspx" />
+    <Content Include="UI\SearchSkill.aspx" />
+    <Content Include="UI\UpdateCategory.aspx" />
+    <Content Include="UI\UpdateEmployee.aspx" />
+    <Content Include="UI\UpdateProject.aspx" />
+    <Content Include="UI\UpdateSkill.aspx" />
+    <Content Include="UI\ViewCategory.aspx" />
+    <Content Include="UI\ViewEmployee.aspx" />
+    <Content Include="UI\ViewProject.aspx" />
+    <Content Include="UI\ViewSkill.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\EmployeeSearchServiceRef\Service1.wsdl" />
+    <None Include="Service References\EmployeeSearchServiceRef\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmployeeSearchServiceRef\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmployeeSearchServiceRef\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntity\AccentureDetailsInfo.cs" />
+    <Compile Include="BusinessEntity\CategoryInfo.cs" />
+    <Compile Include="BusinessEntity\EmployeeInfo.cs" />
+    <Compile Include="BusinessEntity\ProjectInfo.cs" />
+    <Compile Include="BusinessEntity\SkillInfo.cs" />
+    <Compile Include="BusinessLayer\CategoryBC.cs" />
+    <Compile Include="BusinessLayer\EmployeeBC.cs" />
+    <Compile Include="BusinessLayer\ProjectBC.cs" />
+    <Compile Include="BusinessLayer\SkillBC.cs" />
+    <Compile Include="Common\CustomException.cs" />
+    <Compile Include="Common\LoggingExceptions.cs" />
+    <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\EmployeeController.cs" />
+    <Compile Include="Controller\ProjectController.cs" />
+    <Compile Include="Controller\SkillController.cs" />
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\EmployeeDAO.cs" />
+    <Compile Include="DAO\ProjectDAO.cs" />
+    <Compile Include="DAO\SkillDAO.cs" />
+    <Compile Include="Manager\EmployeeManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\EmployeeSearchServiceRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreateCategory.aspx.cs">
+      <DependentUpon>CreateCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CreateCategory.aspx.designer.cs">
+      <DependentUpon>CreateCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreateEmployee.aspx.cs">
+      <DependentUpon>CreateEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CreateEmployee.aspx.designer.cs">
+      <DependentUpon>CreateEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreateProject.aspx.cs">
+      <DependentUpon>CreateProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CreateProject.aspx.designer.cs">
+      <DependentUpon>CreateProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreateSkill.aspx.cs">
+      <DependentUpon>CreateSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CreateSkill.aspx.designer.cs">
+      <DependentUpon>CreateSkill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HRS_master.Master.cs">
+      <DependentUpon>HRS_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\HRS_master.Master.designer.cs">
+      <DependentUpon>HRS_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SearchCategory.aspx.cs">
+      <DependentUpon>SearchCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SearchCategory.aspx.designer.cs">
+      <DependentUpon>SearchCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SearchEmployee.aspx.cs">
+      <DependentUpon>SearchEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SearchEmployee.aspx.designer.cs">
+      <DependentUpon>SearchEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SearchProject.aspx.cs">
+      <DependentUpon>SearchProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SearchProject.aspx.designer.cs">
+      <DependentUpon>SearchProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SearchSkill.aspx.cs">
+      <DependentUpon>SearchSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SearchSkill.aspx.designer.cs">
+      <DependentUpon>SearchSkill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdateCategory.aspx.cs">
+      <DependentUpon>UpdateCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UpdateCategory.aspx.designer.cs">
+      <DependentUpon>UpdateCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdateEmployee.aspx.cs">
+      <DependentUpon>UpdateEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UpdateEmployee.aspx.designer.cs">
+      <DependentUpon>UpdateEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdateProject.aspx.cs">
+      <DependentUpon>UpdateProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UpdateProject.aspx.designer.cs">
+      <DependentUpon>UpdateProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdateSkill.aspx.cs">
+      <DependentUpon>UpdateSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UpdateSkill.aspx.designer.cs">
+      <DependentUpon>UpdateSkill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewCategory.aspx.cs">
+      <DependentUpon>ViewCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ViewCategory.aspx.designer.cs">
+      <DependentUpon>ViewCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewEmployee.aspx.cs">
+      <DependentUpon>ViewEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ViewEmployee.aspx.designer.cs">
+      <DependentUpon>ViewEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewProject.aspx.cs">
+      <DependentUpon>ViewProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ViewProject.aspx.designer.cs">
+      <DependentUpon>ViewProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewSkill.aspx.cs">
+      <DependentUpon>ViewSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ViewSkill.aspx.designer.cs">
+      <DependentUpon>ViewSkill.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\HRS_master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\EmployeeSearchServiceRef\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1048</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

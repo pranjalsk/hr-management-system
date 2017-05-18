@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS_CaseStudy_2", "HRS_CaseStudy_2\HRS_CaseStudy_2.csproj", "{D6E673E0-A058-4E35-863E-7E80B06C03FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{A2135C40-DB58-4601-9F8B-ACB01CA7506D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E673E0-A058-4E35-863E-7E80B06C03FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E673E0-A058-4E35-863E-7E80B06C03FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E673E0-A058-4E35-863E-7E80B06C03FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E673E0-A058-4E35-863E-7E80B06C03FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2135C40-DB58-4601-9F8B-ACB01CA7506D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2135C40-DB58-4601-9F8B-ACB01CA7506D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2135C40-DB58-4601-9F8B-ACB01CA7506D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2135C40-DB58-4601-9F8B-ACB01CA7506D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
